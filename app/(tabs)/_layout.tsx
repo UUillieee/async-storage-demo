@@ -40,6 +40,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="Asyncstorage"
+        options={{
+          title: 'AsyncStorage',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="10.arrow.trianglehead.clockwise.ar" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
